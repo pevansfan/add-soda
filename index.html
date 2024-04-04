@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <section class="product">
+        <div class="product__photo">
+            <div class="photo-container">
+                <div class="photo-main">
+                    <div class="controls">
+                        <ion-icon name="share-social-outline"></ion-icon>
+                        <ion-icon name="heart-outline" id="like" onclick="likeToDislike()"></ion-icon>
+                        <ion-icon name="heart-dislike-outline" id="dislike" style="display: none;" onclick="dislikeToLike()"></ion-icon>
+                    </div>
+                    <img src="assets/img/mockup-canette2.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="product__info">
+            <div class="title">
+                <h1>Soda DreamSip Agrumes</h1>
+                <span>COD: 45999</span>
+            </div>
+            <div class="price">
+                <span>7.93€</span>
+            </div>
+            <div class="variant">
+                <h3>SÉLECTIONNER UNE SAVEUR</h3>
+                <ul>
+                    <li><img src="assets/img/citron.png"
+                            alt="green apple"></li>
+                    <li><img src="assets/img/fleur-oranger.webp"
+                            alt="yellow apple"></li>
+                    <li><img src="assets/img/le-gimgembre.jpeg"
+                            alt="orange apple"></li>
+                    <li><img src="assets/img/vanille.png"
+                            alt="red apple"></li>
+                </ul>
+            </div>
+            <div class="description">
+                <h3>DESCRIPTION</h3>
+                <ul>
+                    <li>Agrumes: citron vert, orange, pamplemousse, citron amer</li>
+                    <li>Plantes: menthe fraîche, basilic</li>
+                    <li>Fraîcheur: glaçon fondant, eau pétillante</li>
+                </ul>
+            </div>
+            <button class="buy--btn">ADD TO CART</button>
+        </div>
+    </section>
+    <script src="assets/js/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
